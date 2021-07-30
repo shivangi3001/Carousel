@@ -71,9 +71,10 @@ li.nav-items{
   .box {
     height: auto;
     width: 50%;
-    background-color: rgba(83, 49, 49, 0.5);
+    background-color: rgba(19, 15, 15, 0.5);
     margin-bottom: 4rem;
     padding: 1rem 1rem;
+    padding-bottom: 2rem;
     color: rgb(142, 180, 169);
     
   }
@@ -108,11 +109,11 @@ li.nav-items{
   }
   
   .btn-contain {
-    width: 200px;
+    width: 19rem;
     height: auto;
     position: absolute;
     margin-left: 15rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     transform: translate(-50%, -50%);
   }
   
