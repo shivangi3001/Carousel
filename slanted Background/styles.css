@@ -1,0 +1,210 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+.wrapper{
+    position: relative;
+    background: red;
+}*/
+
+.breadcrumb a:hover{
+    color: #4d8ac3;
+    -webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+
+}
+
+.book a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.jumbotron-header {
+    padding: 0 4rem;
+    width: 80vw;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.jumbotron-subheader {
+    margin: 1rem 4rem;
+    display: block;
+    text-shadow: 0.1rem 0.1rem 2rem rgb(0 0 0 / 92%);
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.btn-contain {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-left: 20rem;
+    padding-top: 5rem;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn {
+    position: absolute;
+    /*top: 50%;
+    left: 50%;*/
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background: #333;
+    text-align: center;
+    z-index: 10;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 1px 5px 2px #BFCEEF;
+  }
+  .btn:active, .btn:hover, .btn:focus {
+    outline: none !important;
+    color: white;
+  } 
+  .btn-particles {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    color: #eee;
+    font-family: monospace;
+    z-index: 5;
+  /* 	filter: url(#gooeyness); */
+  }
+  .btn:active {
+    transform: scale(0.9) translate(-55%, -55%);
+  }
+
+.book {
+    position: relative; 
+    background: url(satellites.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 92vh;
+    
+}
+
+.book .custom-shape-divider-bottom-1627638426 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.book .custom-shape-divider-bottom-1627638426 svg {
+    position: relative;
+    display: block;
+    width: calc(166% + 1.3px);
+    height: 115px;
+}
+
+.book .custom-shape-divider-bottom-1627638426 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.wavy{
+    position: relative; 
+    background: url(interstellar_nebula-2560x1440.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 92vh;
+    margin: 4rem 0;
+}
+
+
+.header1{
+    width: 100vw;
+    height: 92vh;
+    background: url(https://wallpaperaccess.com/full/2657372.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        50% 100%,
+        0 80%
+    );
+}
+
+.header2{
+    margin: 4rem 0;
+    width: 100vw;
+    height: 92vh;
+    background: url(img1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+         0 0,
+        100% 0%, 
+        100% 80%, 
+        60% 80%, 
+        0% 100% );
+}
+
+.wavy .custom-shape-divider-bottom-1627637643 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wavy .custom-shape-divider-bottom-1627637643 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 152px;
+    transform: rotateY(180deg);
+}
+
+.wavy .custom-shape-divider-bottom-1627637643 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*--- wavy background--- 
+.custom-shape-divider-bottom-1627635522 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background: url(2.jpeg);
+}
+
+.custom-shape-divider-bottom-1627635522 svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-bottom-1627635522 .shape-fill {
+    fill: #FFFFFF;
+}*/
